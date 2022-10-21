@@ -10,7 +10,8 @@
     "test:unit:coverage": "react-scripts test --coverage",
     "prettier:check": "prettier --check './**/*.{ts,tsx,js,jsx}'",
     "prettier:write": "prettier --write './**/*.{ts,tsx,js,jsx}'",
-    "eslint:check": "eslint --max-warnings 0 --ext .js,.jsx,.ts,.tsx './'"
+    "eslint:check": "eslint --max-warnings 0 --ext .ts,.tsx './'",
+    "ts:check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "18.2.0",

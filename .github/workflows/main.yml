@@ -1,0 +1,17 @@
+name: Main Workflow
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  code_style:
+    name: Main
+    uses: ./.github/workflows/code-style.yml
+
+  testing:
+    name: Main
+    uses: ./.github/workflows/tests.yml
+    needs: code_style
