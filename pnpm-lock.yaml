@@ -9,9 +9,12 @@ specifiers:
   '@types/node': 18.7.18
   '@types/react': 18.0.20
   '@types/react-dom': 18.0.6
+  autoprefixer: ^10.4.12
+  postcss: ^8.4.18
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
+  tailwindcss: ^3.2.1
   typescript: 4.8.3
 
 dependencies:
@@ -19,15 +22,18 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@templatefor.dev/react-scripts': 5.1.0_n4upredruleo7vrbwztywbpoxq
+  '@templatefor.dev/react-scripts': 5.1.0_bn5ss3l6ueifap6taer2byislu
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-  '@testing-library/user-event': 14.4.3
+  '@testing-library/user-event': 14.4.3_aaq3sbffpfe3jnxzm2zngsddei
   '@types/jest': 29.0.2
   '@types/node': 18.7.18
   '@types/react': 18.0.20
   '@types/react-dom': 18.0.6
+  autoprefixer: 10.4.12_postcss@8.4.18
+  postcss: 8.4.18
   prettier: 2.7.1
+  tailwindcss: 3.2.1_postcss@8.4.18
   typescript: 4.8.3
 
 packages:
@@ -2200,7 +2206,7 @@ packages:
       - supports-color
     dev: true
 
-  /@templatefor.dev/react-scripts/5.1.0_n4upredruleo7vrbwztywbpoxq:
+  /@templatefor.dev/react-scripts/5.1.0_bn5ss3l6ueifap6taer2byislu:
     resolution: {integrity: sha512-aEY0hW6SJHrBZXwUKp8mO86JfoDVDqToudbI6fDDdPD7mpQ/nB3Wxt3dEzdx7i3sNlX5VVHsNb426wdikT2YgQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -2227,7 +2233,7 @@ packages:
       dotenv: 10.0.0
       dotenv-expand: 5.1.0
       eslint: 8.25.0
-      eslint-config-react-app: 7.0.1_wkqhbzokkuglijhtfs5qmi4puq
+      eslint-config-react-app: 7.0.1_ladc6ogm2d6miomlv4yl2puh6a
       eslint-webpack-plugin: 3.2.0_z55ob32rk3gskynvoaxhybdaym
       file-loader: 6.2.0_webpack@5.74.0
       fs-extra: 10.1.0
@@ -2253,7 +2259,7 @@ packages:
       semver: 7.3.8
       source-map-loader: 3.0.1_webpack@5.74.0
       style-loader: 3.3.1_webpack@5.74.0
-      tailwindcss: 3.1.8
+      tailwindcss: 3.2.1_postcss@8.4.18
       terser-webpack-plugin: 5.3.6_webpack@5.74.0
       typescript: 4.8.3
       webpack: 5.74.0
@@ -2339,11 +2345,13 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: true
 
-  /@testing-library/user-event/14.4.3:
+  /@testing-library/user-event/14.4.3_aaq3sbffpfe3jnxzm2zngsddei:
     resolution: {integrity: sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
+    dependencies:
+      '@testing-library/dom': 8.19.0
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -2961,8 +2969,10 @@ packages:
       - supports-color
     dev: true
 
-  /ajv-formats/2.1.1:
+  /ajv-formats/2.1.1_ajv@8.11.0:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependencies:
+      ajv: ^8.0.0
     peerDependenciesMeta:
       ajv:
         optional: true
@@ -4475,7 +4485,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-react-app/7.0.1_wkqhbzokkuglijhtfs5qmi4puq:
+  /eslint-config-react-app/7.0.1_ladc6ogm2d6miomlv4yl2puh6a:
     resolution: {integrity: sha512-K6rNzvkIeHaTd8m/QEh1Zko0KI7BACWkkneSs6s9cKZC/J27X3eZR6Upt1jkmZ/4FK+XUOPPxMEN7+lbUXfSlA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -4493,7 +4503,7 @@ packages:
       babel-preset-react-app: 10.0.1
       confusing-browser-globals: 1.0.11
       eslint: 8.25.0
-      eslint-plugin-flowtype: 8.0.3_eslint@8.25.0
+      eslint-plugin-flowtype: 8.0.3_zsnjvv3qoabd7iwgbkd6bynb5i
       eslint-plugin-import: 2.26.0_vcunoyu347gmi72pwsm7mdvjca
       eslint-plugin-jest: 25.7.0_npywsikhruxjb7ijoxfufi72my
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.25.0
@@ -4548,7 +4558,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-flowtype/8.0.3_eslint@8.25.0:
+  /eslint-plugin-flowtype/8.0.3_zsnjvv3qoabd7iwgbkd6bynb5i:
     resolution: {integrity: sha512-dX8l6qUL6O+fYPtpNRideCFSpmWOUVx5QcaGLVqe/vlDiBSe4vYljDWDETwnyFzpl7By/WVIu6rcrniCgH9BqQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4556,6 +4566,8 @@ packages:
       '@babel/plugin-transform-react-jsx': ^7.14.9
       eslint: ^8.1.0
     dependencies:
+      '@babel/plugin-syntax-flow': 7.18.6_@babel+core@7.19.3
+      '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.3
       eslint: 8.25.0
       lodash: 4.17.21
       string-natural-compare: 3.0.1
@@ -7691,8 +7703,8 @@ packages:
       postcss: 8.4.18
     dev: true
 
-  /postcss-nested/5.0.6_postcss@8.4.18:
-    resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
+  /postcss-nested/6.0.0_postcss@8.4.18:
+    resolution: {integrity: sha512-0DkamqrPcmkBDsLn+vQDIrtkSbNkv5AD/M322ySo9kqFkCIYklym2xEmWkwo+Y3/qZo34tzEPNUw4y7yMCdv5w==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
@@ -8598,7 +8610,7 @@ packages:
     dependencies:
       '@types/json-schema': 7.0.11
       ajv: 8.11.0
-      ajv-formats: 2.1.1
+      ajv-formats: 2.1.1_ajv@8.11.0
       ajv-keywords: 5.1.0_ajv@8.11.0
     dev: true
 
@@ -9071,10 +9083,12 @@ packages:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
     dev: true
 
-  /tailwindcss/3.1.8:
-    resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
+  /tailwindcss/3.2.1_postcss@8.4.18:
+    resolution: {integrity: sha512-Uw+GVSxp5CM48krnjHObqoOwlCt5Qo6nw1jlCRwfGy68dSYb/LwS9ZFidYGRiM+w6rMawkZiu1mEMAsHYAfoLg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -9086,6 +9100,7 @@ packages:
       glob-parent: 6.0.2
       is-glob: 4.0.3
       lilconfig: 2.0.6
+      micromatch: 4.0.5
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
@@ -9093,7 +9108,7 @@ packages:
       postcss-import: 14.1.0_postcss@8.4.18
       postcss-js: 4.0.0_postcss@8.4.18
       postcss-load-config: 3.1.4_postcss@8.4.18
-      postcss-nested: 5.0.6_postcss@8.4.18
+      postcss-nested: 6.0.0_postcss@8.4.18
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
