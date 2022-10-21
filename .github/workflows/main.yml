@@ -17,7 +17,7 @@ jobs:
     needs: code_style
 
   deploy:
-    name: Main 🚀
+    name: Main / Deploy 🚀
     needs: testing
     concurrency: ci-${{ github.ref }}
 
