@@ -37,24 +37,25 @@ export default function PersonalInfo() {
             <IconCalendarEvent stroke={1.5} />
             <span>April 28, 1991</span>
           </div>
-          <div className="flex items-center space-x-2">
-            <IconMail stroke={1.5} />
+          <a
+            className="group flex items-center space-x-2 transition-colors hover:text-green-500 hover:underline"
+            href="mailto:azarov.private+cv@gmail.com"
+          >
+            <IconMail stroke={1.5} className="group-hover:animate-swing" />
             <span>azarov.private+cv@gmail.com</span>
-          </div>
-          <div className="group ">
-            <a
-              className="flex items-center space-x-2 text-green-500 hover:underline"
-              href="https://evgeniyazarov.t.me"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <IconBrandTelegram
-                stroke={1.5}
-                className="group-hover:animate-swing"
-              />
-              <span>Send me a message</span>
-            </a>
-          </div>
+          </a>
+          <a
+            className="group flex items-center space-x-2 text-green-500 hover:underline"
+            href="https://evgeniyazarov.t.me"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <IconBrandTelegram
+              stroke={1.5}
+              className="group-hover:animate-swing"
+            />
+            <span>Send me a message</span>
+          </a>
         </div>
       </div>
     </aside>
