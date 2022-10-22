@@ -5,7 +5,7 @@ import {
   IconMail,
 } from '@tabler/icons'
 
-import {Avatar} from 'components/avatar'
+import Avatar from 'components/avatar'
 
 export default function PersonalInfo() {
   return (

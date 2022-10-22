@@ -2,7 +2,7 @@ interface AvatarProps {
   className?: string
 }
 
-export const Avatar = ({className}: AvatarProps) => {
+export default function Avatar({className}: AvatarProps) {
   return (
     <div className={`${className} h-40 w-40 flex-none rounded-3xl`}>
       <img
