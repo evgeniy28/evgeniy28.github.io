@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tabler/icons': ^1.106.0
   '@templatefor.dev/react-scripts': ^5.1.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0
@@ -24,6 +25,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+  '@tabler/icons': 1.106.0_biqbaboplfbrettd7655fr4n2y
   '@templatefor.dev/react-scripts': 5.1.0_bn5ss3l6ueifap6taer2byislu
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
@@ -2208,6 +2210,21 @@ packages:
       loader-utils: 2.0.2
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@tabler/icons/1.106.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ldN/ucjGrtAE3YlU8ct8j13ZNbrUueEIqw3jVpGQ55eVztlqVBzGnZbF5kJyLJGmHtxVblyyhEWsRKutFbB21A==}
+    peerDependencies:
+      react: ^16.x || 17.x || 18.x
+      react-dom: ^16.x || 17.x || 18.x
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: true
 
   /@templatefor.dev/react-scripts/5.1.0_bn5ss3l6ueifap6taer2byislu:
