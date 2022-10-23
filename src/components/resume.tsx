@@ -5,27 +5,27 @@ import Timeline from './timeline'
 const experienceData = [
   {
     title: 'Frontend developer',
-    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/" rel="noreferrer noopener">idPowers</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, React-Query, Tailwindcss. <br />Development auto loan <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/cases/vash-investor-lk/" rel="noreferrer noopener">platform</a>. Development betting <a class="text-green-500 hover:underline" target="_blank" href="https://hddx.id-east.ru/" rel="noreferrer noopener">platform</a>.',
+    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/" rel="noreferrer noopener">idPowers</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, React-Query, Tailwindcss. <br />Worked on auto loan <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/cases/vash-investor-lk/" rel="noreferrer noopener">platform</a>. Worked on betting <a class="text-green-500 hover:underline" target="_blank" href="https://hddx.id-east.ru/" rel="noreferrer noopener">platform</a>.',
     period: '01.2021 - 05.2022',
   },
   {
     title: 'Backend developer',
-    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://ecomcharge.com/" rel="noreferrer noopener">eComCharge UAB</a>. <b>Tech stack:</b> Ruby on Rails, PostgreSQL, ClickHouse, Elixir/Phoenix. <br />Add new integration with other payment gateway, add google pay feature, optimization performance api, bugs fix.',
+    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://ecomcharge.com/" rel="noreferrer noopener">eComCharge UAB</a>. <b>Tech stack:</b> Ruby on Rails, PostgreSQL, ClickHouse, Elixir/Phoenix. <br />Worked on new integrations with other payment gateway. Worked on google pay feature, optimization performance api.',
     period: '11.2019 - 11.2020',
   },
   {
     title: 'Full Stack developer',
-    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://chat2desk.com/en/" rel="noreferrer noopener">chat2desk.com</a>. <b>Tech stack:</b> Ruby on Rails with rails ecosystem, PostgreSQL, Reactjs, Redux, Redux-Saga, Elixir/Phoenix. <br />Add new feature, bugs fix, bundle size optimization.',
+    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://chat2desk.com/en/" rel="noreferrer noopener">chat2desk.com</a>. <b>Tech stack:</b> Ruby on Rails with rails ecosystem, PostgreSQL, Reactjs, Redux, Redux-Saga, Elixir/Phoenix. <br />Worked on new feature, bundle size optimization.',
     period: '11.2018 - 11.2019',
   },
   {
     title: 'Full Stack developer',
-    text: '<b>Company:</b> LLC "YesIT". <b>Tech stack:</b> PWA/SPA, Vuejs/Nuxtjs, Graphql, PostgreSQL, RethinkDB, RabbitMQ, Algolia search, Ruby on Rails with rails ecosystem, Elixir/Phoenix, Docker, Nginx. <br />Add new feature to CRM system in Ruby on Rails application. Development of PWA/SPA applications. Development omni channel platform on phoenix/elixir.',
+    text: '<b>Company:</b> LLC "YesIT". <b>Tech stack:</b> PWA/SPA, Vuejs/Nuxtjs, Graphql, PostgreSQL, RethinkDB, RabbitMQ, Algolia search, Ruby on Rails with rails ecosystem, Elixir/Phoenix, Docker, Nginx. <br />Worked on new feature for CRM system in Ruby on Rails application. Developed PWA/SPA applications. Worked on omni channel platform on phoenix/elixir.',
     period: '07.2017 - 11.2018',
   },
   {
     title: 'Full Stack developer',
-    text: '<b>Company:</b> freelance. <b>Tech stack:</b> Ruby on Rails, Rspec, Capybara, PostgreSQL, Sphinx, Coffeescript, Sass, Nginx. <br />Development of web applications on Ruby on Rails.',
+    text: '<b>Company:</b> freelance. <b>Tech stack:</b> Ruby on Rails, Rspec, Capybara, PostgreSQL, Sphinx, Coffeescript, Sass, Nginx. <br />Developed web applications on Ruby on Rails.',
     period: '07.2014-07.2017',
   },
   {
