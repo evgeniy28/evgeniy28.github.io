@@ -5,7 +5,7 @@ import Timeline from './timeline'
 const experienceData = [
   {
     title: 'Frontend developer',
-    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/" rel="noreferrer noopener">idPowers</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, React-Query, Tailwindcss. <br />Development auto loan <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/cases/vash-investor-lk/" rel="noreferrer noopener">platform</a>. Development betting platform.',
+    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/" rel="noreferrer noopener">idPowers</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, React-Query, Tailwindcss. <br />Development auto loan <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/cases/vash-investor-lk/" rel="noreferrer noopener">platform</a>. Development betting <a class="text-green-500 hover:underline" target="_blank" href="https://hddx.id-east.ru/" rel="noreferrer noopener">platform</a>.',
     period: '01.2021 - 05.2022',
   },
   {
