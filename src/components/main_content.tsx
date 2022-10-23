@@ -21,7 +21,7 @@ export default function MainContent() {
 
   return (
     <div className="flex-auto space-y-6">
-      <div className="h-[1000px] rounded-3xl bg-zinc-800 p-6">
+      <div className="rounded-3xl bg-zinc-800 p-6">
         <div className="mb-4 flex justify-end space-x-6">
           <Button isActive={isResume} onClick={() => setActiveTab('resume')}>
             Resume
