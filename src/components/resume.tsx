@@ -5,6 +5,11 @@ import Timeline from './timeline'
 const experienceData = [
   {
     title: 'Frontend developer',
+    text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://educa.ru/" rel="noreferrer noopener">EducaGroup</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, Tailwindcss. <br />Worked on new platform Educa 2.0.',
+    period: '09.2022 - Present',
+  },
+  {
+    title: 'Frontend developer',
     text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/" rel="noreferrer noopener">idPowers</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, React-Query, Tailwindcss. <br />Worked on auto loan <a class="text-green-500 hover:underline" target="_blank" href="https://idpowers.com/cases/vash-investor-lk/" rel="noreferrer noopener">platform</a>. Worked on betting <a class="text-green-500 hover:underline" target="_blank" href="https://hddx.id-east.ru/" rel="noreferrer noopener">platform</a>.',
     period: '01.2021 - 05.2022',
   },
