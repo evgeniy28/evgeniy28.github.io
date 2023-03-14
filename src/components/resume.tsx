@@ -6,7 +6,7 @@ const experienceData = [
   {
     title: 'Frontend developer',
     text: '<b>Company:</b> <a class="text-green-500 hover:underline" target="_blank" href="https://educa.ru/" rel="noreferrer noopener">EducaGroup</a>. <b>Tech stack:</b> Reactjs/Nextjs, Typescript, Mobx, Tailwindcss. <br />Worked on new platform Educa 2.0.',
-    period: '09.2022 - Present',
+    period: '09.2022 - 01.2023',
   },
   {
     title: 'Frontend developer',
